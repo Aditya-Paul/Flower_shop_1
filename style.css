@@ -1,0 +1,210 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* For common classes */
+.btn{
+    
+    border-radius: 4px;
+    background: #E55473;
+    padding: 15px 30px;
+    color: white;
+}
+/* For Banner part */
+
+.banner{
+    width: 100;
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+.banner_content{
+    max-width: 500px;
+}
+.banner_heading{
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.banner_description{
+    text-align: left;
+    margin-bottom: 20px;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.banner_img{
+    width: 635px;
+    height: 600px;
+}
+
+/* Features Part */
+.flower_feaures{
+    max-width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.feature_heading, .Insta_heading{
+    color: #272727;
+text-align: center;
+font-size: 30px;
+}
+.features_desc, .Insta_desc{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 12px;
+}
+/* Types of flower */
+.flower_type {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+.flowe_type_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.type_img_holder{
+    width: 240px;
+    text-align: center;
+    border-top-right-radius: 50% 50%;
+    border-top-left-radius: 50% 50%;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 30px 30px 0px 30px ;
+}
+.type_img_2_holder{
+    width: 240px;
+    text-align: center;
+    border-top-right-radius: 50% 50%;
+    border-top-left-radius: 50% 50%;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 30px 30px 0px 30px ;
+}
+.type_img_3_holder{
+    width: 240px;
+    text-align: center;
+    border-top-right-radius: 50% 50%;
+    border-top-left-radius: 50% 50%;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 30px 30px 0px 30px ;
+}
+.type_img{
+    width: 200px;
+    height: 300px;
+    margin-bottom: -3px;
+    
+}
+.type_name{
+    margin-top: 5px;
+    text-decoration-line: underline;
+}
+/* Offer Part */
+.offer{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 80px;
+    margin-top: 30px;
+    padding: 30px 10px;
+    background: rgba(229, 84, 115, 0.05);
+
+}
+.offer_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.offer_heading{
+    margin-bottom: 15px;
+}
+.text_clr{
+    color: rgba(229, 84, 115, 1);
+}
+.offer_description{
+    text-align: center;
+    margin-bottom: 12px;
+}
+.offer_img{
+    width: 260px;
+    height: 360px;
+}
+
+/* Instagram Part */
+.Insta_section{
+    max-width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Social Media Flower part */
+.Ista_flower{
+    max-width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+.Ista_flower_img{
+    width: 250px;
+    height: 300px;
+   margin-left: 5px;
+}
+/* Subscribe Fields */
+
+.sub_field{
+    max-width: 80%;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 60px;
+    background-image: url("./Flower\ Asset/Rectangle 9.png");
+    background-position: inherit;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.sub_heading{
+    font-size: 30px;
+}
+.sub_desc{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 14px;
+}
+.sub_content{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.sub_input{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.email_input{
+    border-radius: 5px;
+    width: 500px;
+}
+
+.footer_sec{
+    background-color: black;
+}
