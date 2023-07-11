@@ -14,7 +14,7 @@
 /* For Banner part */
 
 .banner{
-    width: 100;
+    width: 100%;
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
     align-items: center;
