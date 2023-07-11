@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Flower Shop</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -78,6 +78,66 @@
 
         </div>
 
+        <!-- Services -->
+        <div class="sercices">
+            <div class="sercive">
+                <img src="./Flower Asset/Group 57.png" alt="" class="service_logo">
+                <p class="service_name">Same Day Delivery. Click & Collect.</p>
+            </div>
+            <div class="sercive">
+                <img src="./Flower Asset/Group 58.png" alt="" class="service_logo">
+                <p class="service_name">Fresh Flowers. Local Growers.</p>
+            </div>
+            <div class="sercive">
+                <img src="./Flower Asset/Group 59.png" alt="" class="service_logo">
+                <p class="service_name">24/7 Free Support.</p>
+            </div>
+        </div>
+
+        <!-- Online purchase -->
+        <div class="Online_sec">
+            <div class="Purchase_field">
+                <h3 >Make your order now</h3>
+                <form action="" class="order_form">
+                    <label for="type">Choose your flower:
+                        
+                        <select name="" id="type" class="fields">
+                            <option value="Bouquet">Bouquet</option>
+                            <option value="Tulip">Tulip</option>
+                            <option value="Others">Others</option>
+                        </select>
+                    </label>
+                    <label for="date">Date:
+                        <input class="fields" type="date" placeholder="Select date">
+                    </label>
+                    <label for="">Address:
+                        <textarea class="fields" name="" id="" cols="30" rows="10" placeholder="Put your address"></textarea>
+                    </label>
+                    <Button class="btn order_btn">Order Now</Button>
+                </form>  
+            </div>
+    
+            <div id="SellS">
+                <h1 class="sells_heading">Our Best Seller Items:</h1>
+                <div class="best_sell">
+                    <div class="best_seller_item">
+                        <img class="best_sell_img" src="./Flower Asset/pngwing 5.png" alt="">
+                        <h3><meter id="disk" value=".9"></meter></h3>
+                    </div>
+                    
+                    <div class="best_seller_item">
+                        <img class="best_sell_img" src="./Flower Asset/pngwing 6.png" alt="">
+                        <h3><meter id="disk" value=".7"></meter></h3>
+                    </div>
+                    <div class="best_seller_item">
+                        <img class="best_sell_img" src="./Flower Asset/Flower 01.png" alt="">
+                        <h3><meter id="disk" value=".5"></meter></h3>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
         <!-- Offer part -->
         <div class="offer">
             <div class="offer_content">
@@ -103,10 +163,18 @@
 
         <!-- Social Media Flower -->
         <div class="Ista_flower">
-            <img class="Ista_flower_img" src="./Flower Asset/Flower 01.png" alt="">
-            <img class="Ista_flower_img" src="./Flower Asset/Rectangle 4.png" alt="">
-            <img class="Ista_flower_img" src="./Flower Asset/Rectangle 5.png" alt="">
-            <img class="Ista_flower_img" src="./Flower Asset/Rectangle 6.png" alt="">
+            <div class="insta_img_holder">
+                <img class="Ista_flower_img" src="./Flower Asset/Flower 01.png" alt="">
+            </div>
+            <div class="insta_img_holder">
+                <img class="Ista_flower_img" src="./Flower Asset/Rectangle 4.png" alt="">
+            </div>
+            <div class="insta_img_holder">
+                <img class="Ista_flower_img" src="./Flower Asset/Rectangle 5.png" alt="">
+            </div>
+            <div class="insta_img_holder">
+                <img class="Ista_flower_img" src="./Flower Asset/Rectangle 6.png" alt="">
+            </div>
 
         </div>
 
@@ -126,11 +194,11 @@
     <!-- Footer Section-->
     <footer>
         <div class="footer_sec">
-            <h1><span class="text_clr">Flower</span>Shop</h1>
-            <p>It is a long established fact that a reader will be distracted by the readable 
+            <h1 class="clr"><span class="text_clr">Flower</span>Shop</h1>
+            <p class="foot_desc">It is a long established fact that a reader will be distracted by the readable 
                 <br>
                 content of a page when looking at its layout.</p>
-            <p></p> 2020-2023, FlowerShop.com. All rights reserved. </p>
+            <p class="copyright_part"><small>&copy;2020-2023, FlowerShop.com. All rights reserved.</small> </p>
         </div>
     </footer>
     
